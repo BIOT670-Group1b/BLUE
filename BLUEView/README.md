@@ -29,3 +29,13 @@ In order for the program to retrieve the gene names and other relevant informati
 
 ### USING THE CHROM-VIEW:
 The program allows each chromosome sequence to be viewed on a viewer under the Fusion-View. To load a chromosome sequence, select any of the chromosomes from the dropdown near the top of the window. The area below the Chromosome viewer updates in real-time the genes currently being viewed in the viewer and their positions. For the genes to be updated, the reference file must be loaded into the program, otherwise no genes will populate. Genes and positions can also be searched by using the search function next the the chromosome dropdown list. Type in the gene name or single position and the chrom-view will automatically go to the specified region/gene if it exists. The Fusion-View will update the same way, though will not show any sequences outside of the fusion sequences.
+
+## IMPROVEMENTS FOR FUTURE
+* QC/QA with other testing bam files - https://drive.google.com/drive/folders/1heeZSw72QU6n7sLH0qttaDlhdT4ePEkK?usp=sharing
+    * Set 1 (BTF-474) original source - https://github.com/Oshlack/JAFFA/wiki/Example
+    * Set 2 (genefuse) original source - http://opengene.org/dataset.html    
+* Add zoom feature to scale in and out of each base pair
+* Add sequencing reads coverage plot for multi-reads view
+* Show reads alignment direction in different color
+* Add a summary table and allow users to download the report and graph
+* Add links to external database such as FusionGDB and COSMIC
